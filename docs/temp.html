@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML-Temp by Moony</title>
+</head>
+
+<body>
+  <div>
+    Form 2
+  </div>
+
+  <div>
+    <form action="index.html">
+      <div>Choose a fruit</div>
+      <div>
+        <input type="radio" name="fruit" value="apple">사과
+        <input type="radio" name="fruit" value="strawberry">딸기
+        <input type="radio" name="fruit" value="grapes">포도
+        <input type="radio" name="fruit" value="pear">배
+      
+      </div>
+
+      <div>
+        <label for="cars">Choose a car1:</label>
+        <select name="cars1" id="cars1">
+          <option value="" selected>------</option>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+          <option value="hyundai" >HyunDai</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="cars">Choose a car2(multiple):</label>
+        <select name="cars2" id="cars2" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+          <option value="hyundai" >HyunDai</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="submit" onclick="alert('Hello world!')">Click Me!</button>
+      </div>
+    </form>
+  </div>
+
+
+  <br>
+  <hr>
+  <br>
+  <div>
+    Form 1
+  </div>
+
+  <div>
+    <form action="index.html">
+      <div>
+
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="opel">Opel</option>
+          <option value="audi">Audi</option>
+          <option value="hyundai" selected>HyunDai</option>
+        </select>
+
+
+
+      </div>
+      <div>
+        Name : <input type="text" name="myname">
+      </div>
+      <div>
+        Contents:
+      </div>
+      <textarea name="mycontents" cols="30" rows="10">입력하는 곳 입니다.</textarea>
+  </div>
+
+  <div>
+    <input type="submit" />
+    <button type="submit" onclick="alert('Hello world!')">Click Me!</button>
+    <button type="reset" onclick="alert('Hello world!')">원래대로 돌리기</button>
+  </div>
+
+
+
+
+  </form>
+  </div>
+</body>
+
+</html>
